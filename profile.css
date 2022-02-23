@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&family=MonteCarlo&family=Sarala&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
+
+.header{
+    /* background-color: rgb(219, 217, 217); */
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    padding-right: 400px;
+}
+.header ul a{
+    color: black;
+}
+
+/* CONTAINER */
+
+.main-content{
+    background-color: rgb(46, 40, 40);
+    height: 500px;
+    overflow: hidden;
+}
+.main-content-view{ 
+    width: 750px;
+    height: 500px;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+.main-content-view-instructions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    width: 350px;
+}
+.main-content-view-instructions img{
+    width: 80px;
+    height: 80px;
+}
+.main-content-view-intructions-py{
+    text-align: center;
+}
+.main-content-view-instructions h1{
+    font-family: Bebas Neue;
+    font-size: 90px;
+    font-weight: 400;
+    color: gainsboro;
+}
+.main-content-view-instructions h2{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    font-weight: 400;
+    color: gainsboro;
+}
+.main-content-view-p{
+    width: 350px;
+    font-size: 13px;
+    color: rgb(150, 134, 134);
+}
+.main-content-image{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+
+    top: 30px;
+    right: 250px;
+}
+
+/* WELCOME */
+
+.welcome{
+    background-image: radial-gradient(circle at 37.72% -19.64%, #f79df5 0, #d987e8 25%, #b46cd8 50%, #8c53c8 75%, #6542bd 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 550px;
+}
+.welcome-title{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: gainsboro;
+
+    width: 90vw;
+    padding-top: 50px;
+    padding-bottom: 55px;
+
+    text-align: center;
+}
+.welcome-title h1{
+    font-family: Bebas Neue;
+    font-size: 90px;
+    font-weight: 40;
+    color: gainsboro;
+}
+.welcome-title h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.welcome-title-p{
+    margin-top: 20px;
+}
+.welcome-pictures{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 325px;
+}
+.welcome-pictures-description{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 335px;
+    height: 600px;
+}
+.welcome-pictures-description img{
+    width: 320px;
+    height: 225px;
+}
+.welcome-pic-descrip-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    width: 320px;
+    height: 200px;
+
+    padding-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+.red{
+    background-color: crimson;
+}
+.orange{
+    background-color: rgb(248, 105, 10);
+}
+.yellow{
+    background-color: rgb(255, 208, 0);
+}
+.welcome-pic-descrip-text p{
+    display: flex;
+    align-items: center;
+
+    height: 85px;
+}
+.welcome-pic-descrip-text button{
+    width: 100px;
+    height: 40px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.welcome-pic-descrip-text button:hover{
+    background-color: white;
+    color: black;
+    
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* SOLUTIONS */
+
+.solutions{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+
+    height: 550px;
+    padding-top: 300px;
+}
+.solutions-methods{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+.solutions-methods-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    width: 222px;
+    padding-top: 10px;
+    text-align: center;
+}
+.solutions-methods-container img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    transition: all 0.2s;
+}
+.solutions-methods-container img:hover{
+    transform: scale(1.1);
+}
+.solutions-methods-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.solutions-methods-text p{
+    width: 180px;
+    font-size: 13px;
+}
+.solutions-methods-button{
+    width: 100px;
+    height: 40px;
+
+    background-color: rgb(235, 232, 232);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    color: black;
+
+}
+.solutions-methods-button a{
+    color: black;
+}
+.solutions-methods-button:hover{
+        background-color: grey;
+        cursor: pointer;
+        transition: 1s;
+}
+
+/* EVENTS */
+
+.events{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+
+    padding-top: 100px;
+    
+    background:url(/Imagens/events\ 01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 400px;
+    width: 100vw;
+}
+.events-container{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    margin-top: 80px;
+}
+.events-container-text{
+    background-color: white;
+    font-size: 13px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 450px;
+    padding: 20px;
+}
+.events-container-text p{
+    font-size: 13px;
+}
+.events-container-text img{
+     width: 450px;
+     height: 200px;
+}
+
+/* SIGN UP */
+
+.signUp{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(/Imagens/pic\ -\ do\ more.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    color:gainsboro;
+    height: 300px;
+    padding-top: 120px;
+}
+.signUp-T{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.signUp-subscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    width: 100vw;
+    height: 100px;
+    
+    background: rgba(10,23,55,0.5);
+    padding: 50px;
+    margin-top: 50px;
+}
+.signUp-subscribe input{
+    border: none;
+    border-radius: 10px;
+    
+    width: 500px;
+    height: 50px;
+}
+#placeholder::placeholder{
+    padding-left: 15px;
+}
+.signUp-subscribe-button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(45, 45, 109);
+    
+    width: 130px;
+    height: 50px;
+}
+.signUp-subscribe-button:hover{
+    background-color: rgb(79, 79, 138);
+}
+.signUp-subscribe a{
+    color: white;
+}
+.signUp-subscribe-button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* CONTACTS */
+
+.contacts-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 244, 238);
+    height: 200px;
+}
+.contact-footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-footer-pic{
+    font-family:Bebas Neue;
+    margin-top: 10px;
+    text-align: center;
+}
+.contact-footer-pic img{
+    margin-top: 15px;
+    padding: 15px;
+    width: 30px;
+}
